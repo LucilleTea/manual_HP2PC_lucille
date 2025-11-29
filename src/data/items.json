@@ -1,301 +1,304 @@
-[
-  {
-    "count": 1,
-    "name": "Jumping",
-    "category": [
-      "Navigation"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Boosting",
-    "category": [
-      "Navigation",
-      "Glitches"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Advanced Tech",
-    "category": [
-      "Glitches"
-    ],
-    "progression": true
-  },
-  {
-    "count": 3,
-    "name": "Progressive Quidditch",
-    "category": [
-      "Minigames",
-      "Quidditch"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Flipendo",
-    "category": [
-      "Spells"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Alohomora",
-    "category": [
-      "Spells"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Lumos",
-    "category": [
-      "Spells"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Rictusempra",
-    "category": [
-      "Spells"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Skurge",
-    "category": [
-      "Spells"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Diffindo",
-    "category": [
-      "Spells"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Spongify",
-    "category": [
-      "Spells"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "MimbleWimble",
-    "category": [
-      "Spells"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Expelliarmus",
-    "category": [
-      "Spells"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Rictusempra Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Skurge Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Diffindo Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Spongify Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Gryffindor Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "AOL Demo Entry",
-    "category": [
-      "Levels",
-      "AOL Demo"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Willow Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Bicorn Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Boomslang Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Gardens Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Slytherin Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Forest Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Chamber Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": "10",
-    "name": "Progressive Duelling",
-    "category": [
-      "Minigames",
-      "Duels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "GWC Challenge Entry",
-    "category": [
-      "Levels"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Great Hall Entry",
-    "category": [],
-    "progression": true
-  },
-  {
-    "count": "7",
-    "name": "Free Potion",
-    "category": [
-      "Gifts"
-    ],
-    "filler": true
-  },
-  {
-    "count": "35",
-    "name": "Free 50 Beans",
-    "category": [
-      "Cardsanity_filler",
-      "Gifts"
-    ],
-    "filler": true
-  },
-  {
-    "count": "10",
-    "name": "Free 100 Beans",
-    "category": [
-      "Gifts"
-    ],
-    "filler": true
-  },
-  {
-    "count": "5",
-    "name": "Free 300 Beans",
-    "category": [
-      "Gifts"
-    ],
-    "filler": true
-  },
-  {
-    "count": "2",
-    "name": "Difficulty Increase",
-    "category": [
-      "Traps"
-    ],
-    "trap": true
-  },
-  {
-    "count": "0",
-    "name": "Dobby's Sock",
-    "category": [],
-    "progression_skip_balancing": true
-  },
-  {
-    "count": "50",
-    "name": "Bronze Card",
-    "category": [
-      "Individual Cards",
-      "Cards-batched"
-    ],
-    "progression": true
-  },
-  {
-    "count": "40",
-    "name": "Silver Card",
-    "category": [
-      "Individual Cards",
-      "Cards-batched"
-    ],
-    "progression": true
-  }
-]
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data": [
+    {
+      "count": 1,
+      "name": "Jumping",
+      "category": [
+        "Navigation"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Boosting",
+      "category": [
+        "Navigation",
+        "Glitches"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Advanced Tech",
+      "category": [
+        "Glitches"
+      ],
+      "progression": true
+    },
+    {
+      "count": 3,
+      "name": "Progressive Quidditch",
+      "category": [
+        "Minigames",
+        "Quidditch"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Flipendo",
+      "category": [
+        "Spells"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Alohomora",
+      "category": [
+        "Spells"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Lumos",
+      "category": [
+        "Spells"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Rictusempra",
+      "category": [
+        "Spells"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Skurge",
+      "category": [
+        "Spells"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Diffindo",
+      "category": [
+        "Spells"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Spongify",
+      "category": [
+        "Spells"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "MimbleWimble",
+      "category": [
+        "Spells"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Expelliarmus",
+      "category": [
+        "Spells"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Rictusempra Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Skurge Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Diffindo Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Spongify Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gryffindor Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "AOL Demo Entry",
+      "category": [
+        "Levels",
+        "AOL Demo"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Willow Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Bicorn Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Boomslang Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Gardens Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Slytherin Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Forest Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Chamber Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": "10",
+      "name": "Progressive Duelling",
+      "category": [
+        "Minigames",
+        "Duels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "GWC Challenge Entry",
+      "category": [
+        "Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Great Hall Entry",
+      "category": [],
+      "progression": true
+    },
+    {
+      "count": "7",
+      "name": "Free Potion",
+      "category": [
+        "Gifts"
+      ],
+      "filler": true
+    },
+    {
+      "count": "35",
+      "name": "Free 50 Beans",
+      "category": [
+        "Cardsanity_filler",
+        "Gifts"
+      ],
+      "filler": true
+    },
+    {
+      "count": "10",
+      "name": "Free 100 Beans",
+      "category": [
+        "Gifts"
+      ],
+      "filler": true
+    },
+    {
+      "count": "5",
+      "name": "Free 300 Beans",
+      "category": [
+        "Gifts"
+      ],
+      "filler": true
+    },
+    {
+      "count": "2",
+      "name": "Difficulty Increase",
+      "category": [
+        "Traps"
+      ],
+      "trap": true
+    },
+    {
+      "count": "0",
+      "name": "Dobby's Sock",
+      "category": [],
+      "progression_skip_balancing": true
+    },
+    {
+      "count": "50",
+      "name": "Bronze Card",
+      "category": [
+        "Individual Cards",
+        "Cards-batched"
+      ],
+      "progression": true
+    },
+    {
+      "count": "40",
+      "name": "Silver Card",
+      "category": [
+        "Individual Cards",
+        "Cards-batched"
+      ],
+      "progression": true
+    }
+  ]
+}

@@ -32,5 +32,7 @@
         "Use_Faster_Start"
       ]
     }
-  ]
+  ],
+  "death_link": false,
+  "starting_index": 1
 }
