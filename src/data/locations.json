@@ -727,7 +727,7 @@
         "Individual Cards",
         "Cards-batched"
       ],
-      "requires": "|Alohomora| AND |Flipendo|",
+      "requires": "|Flipendo|",
       "place_item": [
         "Silver Card"
       ]
@@ -1742,7 +1742,7 @@
       "category": [
         "Cardsanity"
       ],
-      "requires": "|Alohomora| AND |Flipendo|"
+      "requires": "|Flipendo|"
     },
     {
       "name": "Stairs: Silver: Queen Maeve (hospital) 2",

@@ -78,7 +78,7 @@
   },
   "Chamber 1": {
     "connects_to": ["Chamber 2"],
-    "requires": "|Chamber Entry| AND |Alohomora|"
+    "requires": "|Chamber Entry|"
   },
   "Chamber 2": {
     "connects_to": ["Chamber Snake", "Chamber 2 Cards"],
