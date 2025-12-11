@@ -1543,7 +1543,7 @@
         "Individual Cards",
         "Cards-batched"
       ],
-      "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|",
+      "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify| AND |Diffindo|",
       "place_item": [
         "Bronze Card"
       ]
@@ -1555,7 +1555,7 @@
         "Individual Cards",
         "Cards-batched"
       ],
-      "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|",
+      "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify| AND |Diffindo|",
       "place_item": [
         "Bronze Card"
       ]
@@ -1567,7 +1567,7 @@
         "Individual Cards",
         "Cards-batched"
       ],
-      "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|",
+      "requires": "(|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify| AND |Diffindo|",
       "place_item": [
         "Silver Card"
       ]
@@ -1579,7 +1579,7 @@
         "Individual Cards",
         "Cards-batched"
       ],
-      "requires": "((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|) AND (|Flipendo| OR |Boosting|)",
+      "requires": "((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|) AND (|Flipendo| OR |Boosting|) AND |Diffindo|",
       "place_item": [
         "Bronze Card"
       ]
@@ -1591,7 +1591,7 @@
         "Individual Cards",
         "Cards-batched"
       ],
-      "requires": "((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|) AND |Flipendo|",
+      "requires": "((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping|) OR (|Jumping| AND |Boosting|) AND |Spongify|) AND |Flipendo| AND |Diffindo|",
       "place_item": [
         "Bronze Card"
       ]
