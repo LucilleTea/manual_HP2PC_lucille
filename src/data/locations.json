@@ -384,7 +384,7 @@
         "Quidditch"
       ],
       "requires": "|Progressive Quidditch:1|",
-      "dont_place_item": "|Progressive Quidditch|"
+      "dont_place_item": ["|Progressive Quidditch|"]
     },
     {
       "name": "Quidditch - Beat Ravenclaw",
@@ -394,7 +394,7 @@
         "Quidditch"
       ],
       "requires": "|Progressive Quidditch:2|",
-      "dont_place_item": "|Progressive Quidditch|"
+      "dont_place_item": ["|Progressive Quidditch|"]
     },
     {
       "name": "Quidditch - Beat Slytherin",
