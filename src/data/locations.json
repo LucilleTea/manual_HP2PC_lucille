@@ -2414,7 +2414,7 @@
       "category": [
         "Cardsanity"
       ],
-      "requires": "|GWC Challenge Entry| AND (|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|) OR (|AOL Demo Entry| AND |Alohomora| AND |Spongify| AND |Jumping| AND |Rictusempra| AND |Flipendo|)"
+      "requires": "(|GWC Challenge Entry| AND (|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|) OR (|AOL Demo Entry| AND |Alohomora| AND |Spongify| AND |Jumping| AND |Rictusempra| AND |Flipendo|)"
     }
   ]
 }
