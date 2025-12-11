@@ -32,10 +32,18 @@ class SockCount(Range):
     range_end = 50
     default = 7
 
+class CardLenience(Range):
+    """Makes card milestones logically require extra cards, so a player can skip this many cards and still achieve the milestone. If the player chooses not to skip cards this can cause logic skips."""
+    display_name = "Logical card milestone lenience"
+    range_start = 0
+    range_end = 10
+    default = 0
+
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["Sock_Count"] = SockCount
+    options["Card_Milestone_Lenience"] = CardLenience
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

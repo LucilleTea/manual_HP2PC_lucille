@@ -179,7 +179,7 @@
         "Cards",
         "Cards-batched"
       ],
-      "requires": "|Bronze Card:10|"
+      "requires": "{hasCards(Bronze Card,10)}"
     },
     {
       "name": "20 Bronze Cards",
@@ -188,7 +188,7 @@
         "Cards",
         "Cards-batched"
       ],
-      "requires": "|Bronze Card:20|"
+      "requires": "{hasCards(Bronze Card,20)}"
     },
     {
       "name": "30 Bronze Cards",
@@ -197,7 +197,7 @@
         "Cards",
         "Cards-batched"
       ],
-      "requires": "|Bronze Card:30|"
+      "requires": "{hasCards(Bronze Card,30)}"
     },
     {
       "name": "40 Bronze Cards",
@@ -206,7 +206,7 @@
         "Cards",
         "Cards-batched"
       ],
-      "requires": "|Bronze Card:40|"
+      "requires": "{hasCards(Bronze Card,40)}"
     },
     {
       "name": "50 Bronze Cards",
@@ -224,7 +224,7 @@
         "Cards",
         "Cards-batched"
       ],
-      "requires": "|Silver Card:10|"
+      "requires": "{hasCards(Silver Card,10)}"
     },
     {
       "name": "20 Silver Cards",
@@ -233,7 +233,7 @@
         "Cards",
         "Cards-batched"
       ],
-      "requires": "|Silver Card:20|"
+      "requires": "{hasCards(Silver Card,20)}"
     },
     {
       "name": "30 Silver Cards",
@@ -242,7 +242,7 @@
         "Cards",
         "Cards-batched"
       ],
-      "requires": "|Silver Card:30|"
+      "requires": "{hasCards(Silver Card,30)}"
     },
     {
       "name": "40 Silver Cards",
