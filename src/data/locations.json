@@ -997,13 +997,13 @@
       ]
     },
     {
-      "name": "Rictu: Silver: Kirley Duke",
-      "region": "Rictusempra Cards",
+      "name": "Rictu/AOL Demo: Silver: Kirley Duke",
+      "region": "Hub",
       "category": [
         "Individual Cards",
         "Cards-batched"
       ],
-      "requires": "|Jumping| Or |Boosting|",
+      "requires": "(|Rictusempra Entry| AND |Alohomora| AND (|Jumping| Or |Boosting|)) OR (|AOL Demo Entry| AND |Alohomora| AND |Spongify| AND |Jumping| AND |Rictusempra| AND |Flipendo|)",
       "place_item": [
         "Silver Card"
       ]
@@ -1189,13 +1189,13 @@
       ]
     },
     {
-      "name": "Spongy: Bronze: Merlin",
-      "region": "Spongify Cards",
+      "name": "Spongy/AOL Demo: Bronze: Merlin",
+      "region": "Hub",
       "category": [
         "Individual Cards",
         "Cards-batched"
       ],
-      "requires": "|Lumos| AND |Flipendo| AND (|Boosting| OR |Spongify|)",
+      "requires": "(|Spongify Entry| AND |Alohomora| AND |Lumos| AND |Flipendo| AND (|Boosting| OR |Spongify|)) OR (|AOL Demo Entry| AND |Alohomora| AND |Spongify| AND |Jumping|)",
       "place_item": [
         "Bronze Card"
       ]
@@ -1921,12 +1921,12 @@
       "requires": "|Jumping| Or |Boosting|"
     },
     {
-      "name": "Rictu: Silver: Kirley Duke 2",
-      "region": "Rictusempra Cards",
+      "name": "Rictu/AOL Demo: Silver: Kirley Duke 2",
+      "region": "Hub",
       "category": [
         "Cardsanity"
       ],
-      "requires": "|Jumping| Or |Boosting|"
+      "requires": "(|Rictusempra Entry| AND |Alohomora| AND (|Jumping| Or |Boosting|)) OR (|AOL Demo Entry| AND |Alohomora| AND |Spongify| AND |Jumping| AND |Rictusempra| AND |Flipendo|)"
     },
     {
       "name": "Rictu: Silver: Donaghan Tremlett 2",
@@ -2049,12 +2049,12 @@
       "requires": "|Rictusempra| AND |Flipendo| AND (|Boosting| OR (|Rictusempra| AND |Flipendo| AND |Diffindo| AND |Jumping| AND |Skurge|))"
     },
     {
-      "name": "Spongy: Bronze: Merlin 2",
-      "region": "Spongify Cards",
+      "name": "Spongy/AOL Demo: Bronze: Merlin 2",
+      "region": "Hub",
       "category": [
         "Cardsanity"
       ],
-      "requires": "|Lumos| AND |Flipendo| AND (|Boosting| OR |Spongify|)"
+      "requires": "(|Spongify Entry| AND |Alohomora| AND |Lumos| AND |Flipendo| AND (|Boosting| OR |Spongify|)) OR (|AOL Demo Entry| AND |Alohomora| AND |Spongify| AND |Jumping|)"
     },
     {
       "name": "Spongy: Silver: Xavier Rastrick 2",
@@ -2410,11 +2410,11 @@
     },
     {
       "name": "Gold: Harry Potter",
-      "region": "GWC Challenge",
+      "region": "Hub",
       "category": [
         "Cardsanity"
       ],
-      "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|"
+      "requires": "|GWC Challenge Entry| AND (|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|) OR (|AOL Demo Entry| AND |Alohomora| AND |Spongify| AND |Jumping| AND |Rictusempra| AND |Flipendo|)"
     }
   ]
 }
