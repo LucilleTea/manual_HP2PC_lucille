@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
     "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
     "core": {
-        "goal":{
+        "_goal":{
             "_comment": [
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
@@ -16,26 +16,82 @@
         },
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
-            "values": {
-                "recommended": 20
-            }
+            "hidden": true
         }
     },
     "user": {
-        "_commented_out_option":{
+        "Use_Card_Milestones":{
+            "description": [
+                "Adds locations for every 10 bronze cards, every 10 silver cards, and all 11 gold cards. Other than the golds, these locations correspond to Harry celebrating in game and acquiring a health upgrade or a key, so are easily spotted. If you die and lose progress then the lost cards should be considered unobtained again, to keep in sync with game state."
+            ],
             "type": "Toggle",
             "default": true
         },
-        "Example_Toggle":{
+        "Use_Cardsanity":{
             "description": [
-                "This is a Toggle",
-                "A simple boolean, aka True or False set the initial value with \"default\""
+                "Adds locations for every single card in the game. Cards that exist in two places still only have one location, since they can only be obtained once."
             ],
             "type": "Toggle",
-            "default": false,
-            "group": "Example Options"
+            "default": false
         },
-        "Example_Choice":{
+        "Use_Quidditch":{
+            "description": [
+                "Adds items and locations for 3 quidditch matches, for defeating each house in a match (so matches 4, 5 and 6 are unnecessary). The 3rd quidditch match is an alternate way to talk to Malfoy."
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "Use_Duelling":{
+            "description": [
+                "Adds progressive unlocks, spell items and locations for 10 duelling matches."
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "Use_AOL_Demo":{
+            "description": [
+                "Adds item and locations for the AOL Demo map, accessible through the bean bonus room entrance at the house point ceremony room. This map has some broken textures that weren't included in the full release of the game, but functions properly."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "Use_Small_Tasks":{
+            "description": [
+                "Adds some more arbitrary locations which have few or very diverse requirements, in the hopes of opening early game a bit."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "Use_Handouts":{
+            "description": [
+                "Adds some locations for talking to various NPCs, mostly in the hub. They give \"gifts\" of beans/potions rather than randomized items."
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "Use_Traps":{
+            "description": [
+                "Adds two \"Difficulty Increase\" traps to the item pool. Difficulty was unused in the released game, but when debug mode is on you can change difficulty settings in the Input settings menu. This mostly just increases the damage enemies deal to harry, but the basilisk also gets some unique attacks."
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "Use_Faster_Start":{
+            "description": [
+                "You normally start with 3 items, not counting other settings. This option gives you another 2 items. This is very helpful for the game to successfully generate solo, however the more restrictive gameplay is potentially compelling in a setting where it does generate."
+            ],
+            "type": "Toggle",
+            "default": true
+        },
+        "Use_Glitched_Progression":{
+            "description": [
+                "Firstly, this adds \"Advanced Tech\" to your starting items, which signifies you can complete various skips that wouldn't be expected of a casual player. These are: Skurge Skip, Slytherin Bridge Skip, Skurge Snipe.",
+                "Secondly, this adds \"Boosting\" to the item pool, which you may start with as a movement option instead of jumping, or may find in the multiworld. Brightness Boosting is a major movement glitch which allows you to complete several other levels with less of their other requirements, eg. Diffindo without Diffindo. You should be familiar with this glitch if you wish to play with it."
+            ],
+            "type": "Toggle",
+            "default": false
+        },
+        "_Example_Choice":{
             "type": "Choice",
             "description": [
                 "This is a Choice",
@@ -51,7 +107,7 @@
             "allow_custom_value": false,
             "group": "Example Options"
         },
-        "Example_Range":{
+        "_Example_Range":{
             "type": "Range",
             "description": [
                 "This is a Range",
@@ -66,7 +122,7 @@
             "group": "Example Options"
         },
 
-        "DLC_enabled":{
+        "_DLC_enabled":{
             "display_name": "DLC Enabled",
             "description": "Is the Dlc enabled?",
             "type": "Toggle",
