@@ -22,11 +22,81 @@
       "random": 1
     },
     {
-      "item_categories": ["Spells", "Navigation"],
+      "if_previous_item": "Rictusempra Entry",
+      "items": ["Flipendo", "Lumos", "Rictusempra"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Skurge Entry",
+      "items": ["Flipendo", "Alohomora", "Lumos", "Skurge"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Diffindo Entry",
+      "items": ["Flipendo", "Lumos", "Rictusempra", "Skurge", "Diffindo"],
       "random": 2
     },
     {
-      "item_categories": ["Spells", "Navigation", "Levels"],
+      "if_previous_item": "Spongify Entry",
+      "items": ["Flipendo", "Skurge", "Spongify"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Gryffindor Entry",
+      "items": ["Flipendo", "Alohomora", "Diffindo", "Spongify"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "AOL Demo Entry",
+      "items": ["Flipendo", "Alohomora", "Rictusempra", "Spongify"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Willow Entry",
+      "items": ["Flipendo", "Lumos"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Bicorn Entry",
+      "items": ["Flipendo", "Alohomora", "Rictusempra", "Skurge"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Boomslang Entry",
+      "items": ["Diffindo"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Gardens Entry",
+      "items": ["Flipendo", "Alohomora", "Rictusempra", "Diffindo"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Slytherin Entry",
+      "items": ["Flipendo", "Lumos", "Skurge", "Diffindo"],
+      "random": 1
+    },
+    {
+      "if_previous_item": "Forest Entry",
+      "items": ["Flipendo", "Lumos", "Rictusempra", "Diffindo", "Spongify"],
+      "random": 2
+    },
+    {
+      "if_previous_item": "Chamber Entry",
+      "items": ["Flipendo", "Rictusempra", "Skurge", "Diffindo", "Spongify"],
+      "random": 2
+    },
+    {
+      "if_previous_item": "GWC Challenge Entry",
+      "items": ["Flipendo", "Alohomora", "Lumos", "Diffindo"],
+      "random": 1
+    },
+    {
+      "item_categories": ["Navigation"],
+      "random": 1
+    },
+    {
+      "item_categories": ["Navigation", "Levels"],
       "random": 1,
       "yaml_option": [
         "Use_Faster_Start"

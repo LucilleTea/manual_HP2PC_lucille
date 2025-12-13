@@ -62,13 +62,6 @@
             "type": "Toggle",
             "default": true
         },
-        "Use_Handouts":{
-            "description": [
-                "Adds some locations for talking to various NPCs, mostly in the hub. They give \"gifts\" of beans/potions rather than randomized items."
-            ],
-            "type": "Toggle",
-            "default": false
-        },
         "Use_Traps":{
             "description": [
                 "Adds two \"Difficulty Increase\" traps to the item pool. Difficulty was unused in the released game, but when debug mode is on you can change difficulty settings in the Input settings menu. This mostly just increases the damage enemies deal to harry, but the basilisk also gets some unique attacks."

@@ -95,7 +95,8 @@
       "count": 1,
       "name": "MimbleWimble",
       "category": [
-        "Spells"
+        "Spells",
+        "Duels"
       ],
       "progression": true
     },
@@ -103,7 +104,8 @@
       "count": 1,
       "name": "Expelliarmus",
       "category": [
-        "Spells"
+        "Spells",
+        "Duels"
       ],
       "progression": true
     },

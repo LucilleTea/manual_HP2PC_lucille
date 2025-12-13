@@ -15,9 +15,6 @@
     "yaml_option": ["Use_Cardsanity"],
     "hidden": true
   },
-  "Bigger_gift": {
-    "hidden": true
-  },
   "Quidditch": {
     "yaml_option": ["Use_Quidditch"],
     "hidden": true
@@ -32,9 +29,6 @@
   },
   "Small Tasks": {
     "yaml_option": ["Use_Small_Tasks"]
-  },
-  "Help": {
-    "yaml_option": ["Use_Handouts"]
   },
   "Traps": {
     "yaml_option": ["Use_Traps"]

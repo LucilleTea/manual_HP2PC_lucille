@@ -130,7 +130,7 @@
       "category": [
         "Levels"
       ],
-      "requires": "|Diffindo| AND (|Jumping| OR |Boosting|)"
+      "requires": "|Diffindo|"
     },
     {
       "name": "Gardens Complete",
@@ -138,7 +138,7 @@
       "category": [
         "Levels"
       ],
-      "requires": "|Diffindo| AND ((|Boosting| AND |Rictusempra| AND |Flipendo|) OR |Jumping|) AND |Alohomora|"
+      "requires": "|Diffindo| AND ((|Jumping| AND |Rictusempra| AND |Flipendo|) OR |Boosting|) AND |Alohomora|"
     },
     {
       "name": "Slytherin Complete",
@@ -146,7 +146,7 @@
       "category": [
         "Levels"
       ],
-      "requires": "|Flipendo| AND |Diffindo| AND |Jumping| AND |Lumos| AND (|Skurge| OR |Advanced Tech|)"
+      "requires": "|Flipendo| AND |Diffindo| AND (|Jumping| OR (|Boosting| AND |Skurge|)) AND |Lumos| AND (|Skurge| OR |Advanced Tech|)"
     },
     {
       "name": "Forest Complete",
@@ -268,7 +268,7 @@
       "category": [
         "Levels"
       ],
-      "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Flipendo| AND |Alohomora|"
+      "requires": "(|Spongify| OR |Rictusempra|) AND (|Jumping| OR |Boosting|) AND |Diffindo| AND |Lumos| AND |Flipendo| AND |Alohomora|"
     },
     {
       "name": "Buy Nimbus 2001",
@@ -384,7 +384,7 @@
         "Quidditch"
       ],
       "requires": "|Progressive Quidditch:1|",
-      "dont_place_item": ["|Progressive Quidditch|"]
+      "dont_place_item": ["Progressive Quidditch"]
     },
     {
       "name": "Quidditch - Beat Ravenclaw",
@@ -394,7 +394,7 @@
         "Quidditch"
       ],
       "requires": "|Progressive Quidditch:2|",
-      "dont_place_item": ["|Progressive Quidditch|"]
+      "dont_place_item": ["Progressive Quidditch"]
     },
     {
       "name": "Quidditch - Beat Slytherin",
@@ -409,16 +409,8 @@
       "name": "Great Hall",
       "region": "Great Hall",
       "victory": true,
-      "category": [],
+      "category": [],   
       "requires": ""
-    },
-    {
-      "name": "Brew a Potion",
-      "region": "Hub",
-      "category": [
-        "Small Tasks"
-      ],
-      "requires": "|Flipendo| OR |Alohomora| OR (|Progressive Duelling| AND |Rictusempra|)"
     },
     {
       "name": "Defeat Peeves",
@@ -426,7 +418,7 @@
       "category": [
         "Bosses"
       ],
-      "requires": "|Skurge| AND |Flipendo|"
+      "requires": "|Skurge| AND (|Flipendo| OR |Boosting|)"
     },
     {
       "name": "Talk to Malfoy (Slytherin or Quidditch)",
@@ -453,80 +445,28 @@
       "requires": ""
     },
     {
-      "name": "Talk to Snape",
-      "region": "Hub",
-      "category": [
-        "Help"
-      ],
-      "requires": "",
-      "place_item_category": ["Gifts"]
-    },
-    {
-      "name": "Talk to Percy",
-      "region": "Hub",
-      "category": [
-        "Help"
-      ],
-      "requires": "",
-      "place_item_category": ["Gifts"]
-    },
-    {
-      "name": "Talk to Madam Pomfrey",
-      "region": "Hub",
-      "category": [
-        "Help"
-      ],
-      "requires": "",
-      "place_item_category": ["Gifts"]
-    },
-    {
       "name": "Talk to Ron (Willow)",
       "region": "Willow",
       "category": [
-        "Help"
+        "Small Tasks"
       ],
-      "requires": "|Lumos| AND (|Boosting| OR (|Flipendo| AND |Jumping|))",
-      "place_item_category": ["Gifts"]
+      "requires": "|Lumos| AND (|Boosting| OR (|Flipendo|)"
     },
     {
-      "name": "Light a Gargoyle in a Spell Challenge",
+      "name": "Brew a Potion",
       "region": "Hub",
       "category": [
         "Small Tasks"
       ],
-      "requires": "|Lumos| AND ((|Rictusempra Entry| AND |Rictusempra| AND |Flipendo|) OR (|Skurge Entry| AND |Skurge| AND (|Flipendo| OR (|Advanced Tech| AND |Jumping|))) OR (|Diffindo Entry| AND (|Diffindo| AND |Flipendo| AND |Rictusempra| AND |Jumping|) OR (|Boosting| AND |Diffindo|)) OR (|Spongify Entry| AND |Flipendo|))"
+      "requires": "|Flipendo| OR |Alohomora| OR (|Progressive Duelling| AND |Rictusempra|)"
     },
     {
-      "name": "Free Peeves From a Chest",
+      "name": "Tickle 2 Witch Statues (Entryhall, Skurge, Slytherin)",
       "region": "Hub",
       "category": [
         "Small Tasks"
       ],
-      "requires": "|Alohomora| AND (|Skurge Entry| AND |Skurge| AND (|Flipendo| OR (|Advanced Tech| AND |Jumping|))) OR (|Diffindo Entry| AND (|Diffindo| AND |Flipendo| AND |Rictusempra|) OR (|Boosting| AND (|Diffindo| OR |Jumping|))) OR (|Spongify Entry| AND |Jumping| AND |Spongify| AND |Skurge| AND |Flipendo|) OR (|Bicorn Entry| AND |Jumping| AND |Skurge| AND |Flipendo| AND |Rictusempra|) OR (|Gardens Entry| AND |Diffindo| AND ((|Boosting| AND |Rictusempra| AND |Flipendo|) OR |Jumping|))"
-    },
-    {
-      "name": "Tickle 2 Witch Statues",
-      "region": "Hub",
-      "category": [
-        "Small Tasks"
-      ],
-      "requires": "|Flipendo| AND (|Skurge Entry| AND |Skurge|) OR (|Slytherin Entry| AND |Diffindo| AND |Jumping| AND |Lumos| AND (|Skurge| OR |Advanced Tech|))"
-    },
-    {
-      "name": "Tickle Hagrid's Pigs",
-      "region": "Hub",
-      "category": [
-        "Small Tasks"
-      ],
-      "requires": "|Rictusempra|"
-    },
-    {
-      "name": "Defeat a Spider",
-      "region": "Hub",
-      "category": [
-        "Small Tasks"
-      ],
-      "requires": "|Rictusempra| AND (|Spongify Entry| AND |Jumping| AND |Spongify| AND |Skurge| AND |Flipendo|) OR (|Boomslang Entry| AND |Diffindo| AND (|Jumping| OR |Boosting|)) OR (|Slytherin Entry| AND |Diffindo| AND |Jumping| AND |Lumos| AND (|Skurge| OR |Advanced Tech|) AND |Alohomora|) OR (|Forest Entry| AND ((|Lumos| AND |Boosting|) OR (|Lumos| AND |Jumping| AND |Spongify|) OR (|Jumping| AND |Boosting|)) AND |Diffindo| AND |Rictusempra|) OR (|Chamber Entry| AND |Spongify| AND |Diffindo|)"
+      "requires": "|Flipendo| AND ((|Skurge Entry| AND |Skurge|) OR (|Slytherin Entry| AND |Diffindo| AND |Jumping| AND |Lumos| AND (|Skurge| OR |Advanced Tech|)))"
     },
     {
       "name": "EntryH: Bronze: Archibald Alderton (stained glass)",
@@ -2374,7 +2314,7 @@
       "category": [
         "Cardsanity"
       ],
-      "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Alohomora|"
+      "requires": "(|Spongify| OR (|Rictusempra| AND |Flipendo|)) AND |Diffindo| AND |Alohomora|"
     },
     {
       "name": "Gold: Montague Knightley",
@@ -2382,7 +2322,7 @@
       "category": [
         "Cardsanity"
       ],
-      "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora|"
+      "requires": "(|Spongify| OR (|Rictusempra| AND |Flipendo|)) AND |Diffindo| AND |Lumos| AND |Alohomora|"
     },
     {
       "name": "Gold: Paracelsus",
@@ -2390,7 +2330,7 @@
       "category": [
         "Cardsanity"
       ],
-      "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND (|Flipendo| OR |Boosting|)"
+      "requires": "(|Spongify| OR (|Rictusempra| AND |Flipendo|)) AND |Diffindo| AND |Lumos| AND |Alohomora| AND (|Boosting| OR (|Flipendo| AND |Jumping|))"
     },
     {
       "name": "Gold: Carlotta Pinkstone",
@@ -2398,7 +2338,7 @@
       "category": [
         "Cardsanity"
       ],
-      "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND (|Flipendo| OR |Boosting|)"
+      "requires": "(|Spongify| OR (|Rictusempra| AND |Flipendo|)) AND |Diffindo| AND |Lumos| AND |Alohomora| AND (|Boosting| OR (|Flipendo| AND |Jumping|))"
     },
     {
       "name": "Gold: Rowena Ravenclaw",
@@ -2406,7 +2346,7 @@
       "category": [
         "Cardsanity"
       ],
-      "requires": "(|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|"
+      "requires": "(|Spongify| OR |Rictusempra|) AND |Flipendo| AND |Diffindo| AND |Lumos| AND |Alohomora| AND (|Boosting| OR |Jumping|))"
     },
     {
       "name": "Gold: Harry Potter",
@@ -2414,7 +2354,7 @@
       "category": [
         "Cardsanity"
       ],
-      "requires": "(|GWC Challenge Entry| AND (|Spongify| OR |Rictusempra|) AND |Jumping| AND |Diffindo| AND |Lumos| AND |Alohomora| AND |Flipendo|) OR (|AOL Demo Entry| AND |Alohomora| AND |Spongify| AND |Jumping| AND |Rictusempra| AND |Flipendo|)"
+      "requires": "(|GWC Challenge Entry| AND (|Spongify| OR |Rictusempra|) AND |Flipendo| AND |Diffindo| AND |Lumos| AND |Alohomora| AND (|Boosting| OR |Jumping|)) OR (|AOL Demo Entry| AND |Alohomora| AND |Spongify| AND |Jumping| AND |Rictusempra| AND |Flipendo|)"
     }
   ]
 }
